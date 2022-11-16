@@ -1,0 +1,60 @@
+.title {
+  font-family: Lobster;
+  text-align: center;
+}
+
+.term {
+  border: solid 5px black;
+  border-radius: 15px;
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.definition {
+  border: solid 5px black;
+  border-radius: 15px;
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  margin-top: 100px;
+  opacity: 0;
+}
+
+.check-definition-button-container {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+.check-definition-button {
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(61, 192, 61);
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.check-definition-button:hover {
+  transform: scale(1.15);
+  transition: transform 0.15s;
+}
+
+.term-text {
+  padding: 10px;
+}
+
+.definition-text {
+  padding: 10px;
+}
+
+.homepage-image-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  width: 50px;
+  cursor: pointer;
+}
