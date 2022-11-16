@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Card App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body onload="getRandomWord()">
+    
+
+
+    <h1 class="title">Hallo, Wilkommen zu Ramir's Reviewer</h1>
+
+    <div class="term">
+      <h3 class="term-text" id="termz"></h3>
+    </div>
+
+    <div class="definition">
+      <h3 class="definition-text" id="defz"></h3>
+    </div>
+
+    <div class="check-definition-button-container">
+      <button class="check-definition-button check">Check Definition</button>
+      <button class="check-definition-button next">Next Word</button>
+    </div>
+
+    <div class="homepage-image-container">
+      <a href="../chronomio.html">
+        <img class = "homepage-image" src="home-page-fill.svg" alt="">
+      </a>
+      
+    </div>
+   
+    
+    <script src="js/app.js"></script>
+  </body>
+</html>
